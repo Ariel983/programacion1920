@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package introjava;
+import java.util.Scanner;
 
 public class Introjava {
 

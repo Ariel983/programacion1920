@@ -53,7 +53,7 @@ public class cajero_auntomatico_while {
                     } else {
                         System.out.println("Esta intentando depositar un valor negativo");
                     }
-                    System.out.println("el saldo actual es de:" + saldo + "$");
+                   // System.out.println("el saldo actual es de:" + saldo + "$");
                     System.out.println("Desea realizar otra operacion si/no");
                     res = datos.next();
                     res = res.toLowerCase();
@@ -62,13 +62,12 @@ public class cajero_auntomatico_while {
                         opcion = dato.nextInt();
                     } else if (res.equals("no")) {
                         System.out.println("QUE TENGA UN LUNDO DIA ");
-                        op = false;
-                        
+                        op = false;                       
                     }
                     break;
                 case 3:
                     System.out.println("Saldo de la cuenta");
-                    System.out.println("Tu saldo es:" + saldo + "&");
+                    //System.out.println("Tu saldo es:" + saldo + "&");
                     System.out.println("Desea realizar otra operacion si/no");
                     res = datos.next();
                     res = res.toLowerCase();
@@ -77,8 +76,7 @@ public class cajero_auntomatico_while {
                         opcion = dato.nextInt();
                     } else if (res.equals("no")) {
                         System.out.println("QUE TENGA UN LUNDO DIA ");
-                        op = false;
-                        
+                        op = false;              
                     }
                     break;
                 case 0:
@@ -91,8 +89,7 @@ public class cajero_auntomatico_while {
                         opcion = dato.nextInt();
                     } else if (res.equals("no")) {
                         System.out.println("QUE TENGA UN LUNDO DIA ");
-                        op = false;
-                        
+                        op = false;                      
                     }
                     break;
                 default:
@@ -105,8 +102,7 @@ public class cajero_auntomatico_while {
                         opcion = dato.nextInt();
                     } else if (res.equals("no")) {
                          System.out.println("QUE TENGA UN LUNDO DIA ");
-                        op = false;
-                       
+                        op = false;    
                     }
             }
             System.out.println("el saldo actual es de:" + saldo + "$");

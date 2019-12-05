@@ -2,7 +2,7 @@ package Ejercicios_proyecto;
 
 public class Numeros_Perfectos {
     public static void main(String[] args) {
-        int i = 0;
+        int i=0;
         int j = 0;
         int sum;
         int max = 10000;// este es el limite hasta donde puede buscar el programa numeros perfectos   

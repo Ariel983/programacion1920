@@ -28,7 +28,6 @@ public class Numeros_distintos_cero {
                 if (numeros[cont] > 0) {
                     mayores++;
                 }
-        
             }
             System.out.print(numeros[cont] + " ");
         }

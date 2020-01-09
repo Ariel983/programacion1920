@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Metodos;
 //Determinar si un numero es par
 import java.util.Scanner;
@@ -21,7 +17,7 @@ public class ex_metodo {
         //cuando el metodo retorna valores
         String msg = determinar_par_V2(num);//recibimos el valor que retorna el metodo 
         System.out.println(msg);
-        
+      
     }
     /**
      * es un metodo que si retorna valor

@@ -15,7 +15,6 @@ public class Encontra_numeros_perfectos {
         //int perfecto = datos.nextInt();
         Determinar_Perfecto(10000);
     }
-
     /**
      * Metodo para encontrar los numeros perfectos
      *
@@ -30,7 +29,7 @@ public class Encontra_numeros_perfectos {
         System.out.println("   NUMEROS PERFECTOS");
         System.out.println("======================");
 
-        while (com <= num) {
+       while (com <= num) {
             com++;
             for (com = 1; com <= num; com++) {
                 sum = 0;
@@ -47,7 +46,7 @@ public class Encontra_numeros_perfectos {
                     
                 }
              
-            }
+         }
                System.out.println("La suma de los numeros perfectos es:" + sum2);
         }
        

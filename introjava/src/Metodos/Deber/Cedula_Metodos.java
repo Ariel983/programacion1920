@@ -12,7 +12,12 @@ import java.util.Scanner;
  * @author byron
  */
 public class Cedula_Metodos {
-
+    
+    
+/**
+ * Metodo para comprobar si un numero ingresado es una decula o no.
+ * @param num son lo numero de cada digito de la dedula
+ */
     public static void Comprobar_Cedula(int num) {
         Scanner datos = new Scanner(System.in);
         num = 0;

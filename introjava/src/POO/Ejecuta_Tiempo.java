@@ -17,5 +17,8 @@ public class Ejecuta_Tiempo {
         //vamos a crae un segundo objeto de la clase tiempo
         Tiempo t = new Tiempo(21,51,30);
         System.out.println("valor de hora: " + t.Obtener_hora());
+        
+        Clima clima = new Clima(35,"Grados","Centigrados");
+        System.out.println("el clima es: "+clima.Obtener_datos());
     }
 }
